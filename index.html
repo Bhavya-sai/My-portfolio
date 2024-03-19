@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="color.css" rel="stylesheet">
+    <script src="function.js"></script>
+    <title>Portfolio</title>
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi, I'm <span>Bhavya</span> <br>Kasetti From Gudivada</h1>
+            </div>
+        </div>
+    </div>
+
+    <!--ABOUT SECTION-->
+
+
+
+    <div id="about">
+
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/bhavya1.jpg" height="550px" width="400px">
+
+                </div>
+                <div class="about-col-2">
+
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Learn How To Make A Portfolio Website Using HTML CSS JavaScript | Complete Responsive Website
+                        Design | Make Personal portfolio website ❤️ Get Source Code:
+                        https://www.buymeacoffee.com/easytutorials/e/110476 👉 Upload website online:
+                        https://youtu.be/j6p78OjFpWI In this video we will create a personal portfolio website design
+                        step by step using HTML CSS and JavaScript
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('expereience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents Active-tab" id="skills">
+                        <ul>
+                            <li><span>UI?UX</span><br>Designing Web App Interfaces</li>
+                            <li><span>Web Development</span><br>Web Development</li>
+                            <li><span>App Development</span><br>Building Android/IOS Apps</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="expereience">
+                        <ul>
+                            <li><span>Web Development Internship</span><br>By Let's Grow More</li>
+                            <li><span>Python Internship</span><br>by internpe</li>
+                            <li><span>Cloud Virtual Internship</span><br>By AICTE</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B-Tech</span><br>Gayatri Vidya Parishad, Visakhapatnam</li>
+                            <li><span>Diploma</span><br>A.A.N.M & V.V.R.S.R ,Gudlavalleru</li>
+                            <li><span>SSC</span><br>Viswa Vignan, Gudivada</li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Services-->
+
+    <div id="Services">
+
+        <div class="container">
+
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>
+                        Web design is the process of planning, designing, and creating websites. It encompasses a wide
+                        range of skills and disciplines, including graphic design, user interface design, and web
+                        development. The goal of web design is to create websites that are visually appealing, easy to
+                        use, and relevant to the target audience.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>
+                        Web design is the process of planning, designing, and creating websites. It encompasses a wide
+                        range of skills and disciplines, including graphic design, user interface design, and web
+                        development. The goal of web design is to create websites that are visually appealing, easy to
+                        use, and relevant to the target audience.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>
+                        Web design is the process of planning, designing, and creating websites. It encompasses a wide
+                        range of skills and disciplines, including graphic design, user interface design, and web
+                        development. The goal of web design is to create websites that are visually appealing, easy to
+                        use, and relevant to the target audience.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    <!-- -------portfolio------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/mobile app.jpg">
+                    <div class="layer">
+                        <h3> Social Media App </h3>
+                        <p>The app connects you to the talented people around the world. Download it from play store.
+                        </p>
+                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Chatbot.jpg">
+                    <div class="layer">
+                        <h3> Social Media App </h3>
+                        <p>The app connects you to the talented people around the world. Download it from play store.
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/website.jpg" height="100%">
+                    <div class="layer">
+                        <h3> Social Media App </h3>
+                        <p>The app connects you to the talented people around the world. Download it from play store.
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">See More</a>
+
+        </div>
+    </div>
+
+    <!-- -------------Contact--------- -->
+
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> kasettibhavya2003@gmail.com</p>
+                    <p>9490743558</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-twitter-square"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                    </div>
+
+                    <a href="images/Resume.pdf" download class="btn btn2">Download CV</a>
+
+
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Bhavya. Made by Bhavya Kasetti</p>
+        </div>
+    </div>
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("Active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("Active-tab");
+        }
+
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu()
+        {
+            sidemenu.style.right = "0";
+        }
+        
+        function closemenu()
+        {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+
+
+
+</body>
+
+</html>
